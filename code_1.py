@@ -1,15 +1,13 @@
-import requests
-import json
-
-
 # TODO: Задание 1
 """
 1. Подключение к API и получение данных
-Напишите скрипт на Python, который подключается к API и получает данные. 
-Например, используйте публичное API https://jsonplaceholder.typicode.com/posts. 
+Напишите скрипт на Python, который подключается к API и получает данные.
+Например, используйте публичное API https://jsonplaceholder.typicode.com/posts.
 Сохраните полученные данные в формате JSON в файл.
 
 """
+import requests
+import json
 
 
 def get_json():
